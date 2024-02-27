@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/calculadora-js/style.css">
+    <title>Calculadora</title>
+</head>
+<body> 
+    <div class="main">
+        <h1>Calculadora JS </h1>
+        <div class="botones-main">
+            <input type="text" id="op1" placeholder="Operador 1">
+            <input type="text" id="operacion" placeholder="+, -, *, /,">
+            <input type="text" id="op2" placeholder="Operador 2">
+            <input class="calculator-main" type="submit" value="Calcular" id="calcular">
+            <button id="reiniciar">Limpiar</button>            
+        </div>
+   
+        <p id="resultado"></p>
+        <div class="hecho-main">
+            <p>Hecho por</p>
+            <p>Federico Bitsch</p>
+        </div>
+       
+    </div>
+    
+    <!--DEFER el javascript carga despues del html,  -->
+    <script src="/calculadora-js/index.js" defer></script>
+</body>
+
+</html>

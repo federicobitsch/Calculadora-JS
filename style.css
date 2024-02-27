@@ -1,0 +1,51 @@
+body{
+    background-color: gray;
+    font-size: 20px; 
+}
+
+/**/
+.main {
+    background-color: rgb(136, 133, 133);
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 80px; 
+    margin: auto;
+    width: 50%;
+}
+
+input{
+    border-radius: 2%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+
+#resultado {
+    font-weight: bold;
+    color: #030303;
+    margin-top: 20px;
+}
+
+
+#calcular,
+#reiniciar {
+    display: inline-block;
+    margin-right: 20px; 
+    background-color:white;
+    color: black;
+    border: 2px red solid;
+    padding: 12px;
+}
+
+
+
+.hecho-main {
+    position:absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white; 
+}
